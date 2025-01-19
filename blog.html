@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Daisy UI CDN and Tailwindcss -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                "bg": '#B4F461',
+
+              }
+            }
+          }
+        }
+      </script>
+      <!-- Google font CDN -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="container mx-auto font-Lexend my-10">
+    <!-- header -->
+    <header >
+        <!-- navbar -->
+         <div class="navbar bg-base-100">
+  <div class="navbar-start">
+    
+    <a href="index.html">
+        <button class="btn bg-bg lg:text-xl lg:w-24 rounded-xl sm:px-3 ">Home</button>
+    </a>
+  </div>
+  <div class="navbar-center">
+    <a class="btn btn-ghost lg:text-xl sm:px-3">
+        <img class="w-2/12 lg:w-8" src="assets/logo.png" alt="">Donate Bangladesh</a>
+  </div>
+  <div class="navbar-end">
+    <a class="btn btn-ghost text-xl">
+        <img class="sm:w-1/6 lg:w-8" src="assets/coin.png" alt="">5500</a>
+  </div>
+        </div>
+        <div class="lg:max-w-96 lg:mx-auto ml-6 ">
+          <button class="btn bg-bg w-36">Donation</button>
+          <button class="btn w-36">History</button>
+      </div>
+    </header>
+    <!-- main -->
+     <main class="my-10 space-y-8">
+       
+        <div class="space-y-9  mx-8">
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+        </div>
+     </main>
+     <footer class="h-24">
+        <div></div>
+        <div></div>
+     </footer>
+</body>
+</html>
